@@ -9,7 +9,7 @@ Keynote files can be found in <tt>presentations/</tt>. Here's a brief summary of
 
 ---
 
-**01 Intro to Software Development.key**
+### 01 Intro to Software Development.key
 
 Just a little intro to get people fired up and share our philosophy of what it
 means to achieve basic programming literacy and how we approach the experience.
@@ -22,4 +22,9 @@ TODO:
 
 ---
 
+### 02 Software Development Methodologies.key
 
+An overview of various methods used in developing software, like Agile
+Programming, TDD, etc.
+
+---

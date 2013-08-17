@@ -1,6 +1,5 @@
 #Version Control with Git
 
-
 ##What is git?
 
 Git is a pretty standard version control system, similar to SVN and others.  Github took Git and ran with it, making it stupidly easy to collaborate on code.

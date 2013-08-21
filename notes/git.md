@@ -61,6 +61,23 @@ Don't ever merge a pull request by hitting that shiny green button in Github.  I
 ####Display the diff for a commit
 <pre>git show {hash}</pre>
 
+####Regarding rebase conflicts
+Rebase conflicts are the worst.  Somewhere in the middle of all the text that gets outputted when you encounter one of these monstrosities is useful information though, so don't panic too hard.
+
+Open the conflicted files one at a time.  You'll see some arrows (>>>>>>>>>>>>>) indicating where the conflicts occured, with your version and the other branch separated by said crazy ass arrows.  
+
+- Keep the lines you like
+- Delete all the other crap
+- Save the file
+- Don't leave any extra whitespace
+
+Boom!  When the files look good (I like to search for >>>), add your changes and continue the rebase.  Not bad, right?
+<pre>
+git add .
+git reabse --continue
+</pre>
+
+
 ####Rewriting history
 
 You can rewrite history with an interactive rebase (but be careful with this one, **this is not a thing to do while sleepy**)
